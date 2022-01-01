@@ -1,0 +1,9 @@
+steps:
+
+  - id: Test
+    name: 'golang'
+    entrypoint: '/bin/bash'
+    args:
+      - '-c'
+      - 'go test ./...'
+
